@@ -1,0 +1,318 @@
+AWSTATS DATA FILE 5.4 (build 1.1.1.1)
+# If you remove this file, all statistics for date 2004-10 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section
+# for direct I/O access. If you made changes somewhere in this file, you
+# should also remove completely the MAP section (AWStats will rewrite it
+# at next update).
+BEGIN_MAP 23
+POS_GENERAL 1667                
+POS_TIME 1985                
+POS_VISITOR 5290                
+POS_DAY 5809                
+POS_DOMAIN 2380                
+POS_LOGIN 2542                
+POS_ROBOT 2676                
+POS_EMAILSENDER 2969                
+POS_EMAILRECEIVER 3112                
+POS_SESSION 6148                
+POS_SIDER 6325                
+POS_FILETYPES 3247                
+POS_BROWSER 3374                
+POS_OS 3495                
+POS_UNKNOWNREFERER 3614                
+POS_UNKNOWNREFERERBROWSER 3728                
+POS_ORIGIN 3837                
+POS_SEREFERRALS 3972                
+POS_PAGEREFS 4145                
+POS_SEARCHWORDS 4317                
+POS_KEYWORDS 4510                
+POS_ERRORS 4616                
+POS_SIDER_404 4719                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of lines read - Nb of old records - Nb of new records - Nb of corrupted - Nb of dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20041101050932 7692 44406524406
+FirstTime 0
+LastTime 20041031130235
+LastUpdate 20041102000807 1 0 1 0 0
+TotalVisits 13                  
+TotalUnique 10                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 12                  
+END_GENERAL
+
+# Hour - Pages - Hits - Bandwidth
+BEGIN_TIME 24
+0 50 50 166769
+1 0 0 0
+2 0 0 0
+3 0 0 0
+4 0 0 0
+5 1 1 3090
+6 0 0 0
+7 0 0 0
+8 1 1 3090
+9 1 1 3090
+10 38 38 120795
+11 1 2 8528259
+12 2 2 33700
+13 44 44 166710
+14 0 0 0
+15 0 0 0
+16 1 2 77509
+17 25 44 1516140
+18 0 0 0
+19 2 2 50084
+20 1 1 3090
+21 0 0 0
+22 1 1 3090
+23 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 168 189 10675416
+END_DOMAIN
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 5
+msnbot 229 5018942 20041026155612
+jeeves 138 5224156 20041030132450
+crawl 109 0 20041027052605
+slurp 53 15233 20041030185023
+ia_archiver 48 158363 20041012204350
+END_ROBOT
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 164 508597 0 0
+pdf 4 8626416 0 0
+jpg 12 1324945 0 0
+gif 9 215458 0 0
+END_FILETYPES
+
+# Browser ID - Hits
+BEGIN_BROWSER 6
+msie6.0 62
+netscape4.04 1
+netscape4.08 1
+msie5.0 40
+netscape5.0 2
+Unknown 83
+END_BROWSER
+
+# OS ID - Hits
+BEGIN_OS 6
+winxp 62
+macintosh 40
+winnt 1
+win2000 2
+Unknown 83
+freebsd 1
+END_OS
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Faxobot/1.0 20041031130235
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Faxobot/1.0 20041031130235
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 9 11
+From1 0 0
+From2 2 5
+From3 2 2
+From4 155 171
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+yahoo. 2 4
+alltheweb.com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://www.faxo.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+basilisk+lizard 3
+dinosaur+paper+model 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 5
+lizard 3
+basilisk 3
+dinosaur 2
+model 2
+paper 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 24 13403842
+404 10 5100
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 10
+/ss_notetaking/Typephoto.htm 1 -
+/ad_done.htm 1 -
+/nats.htm 1 -
+/my-art.htm 1 -
+/alp/logo.htm 1 -
+/emstop_f/typePhoto_2/goal-rank.htm 1 -
+/cheapdomains/ 1 http://www.domainsatcost.com/
+/Korfball.htm 1 -
+/bighouse/people12.htm 1 -
+/lot/dino/bathoryhouse.htm 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start of last visit date] - [Last page of last visit]
+# [Start of last visit date] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 12
+63.148.99.239 50 50 166769 20041016001154
+69.150.87.73 44 44 166710 20041031130235
+207.230.39.18 39 39 8632523 20041003110108
+205.242.216.240 24 40 1498784 20041011171957
+64.122.125.36 4 4 83784 20041022195405
+67.15.35.8 3 3 9270 20041029053817
+203.76.219.168 1 3 10489 20041016172004
+67.121.95.81 1 2 77509 20041021161913
+66.160.142.3 1 1 3090 20041013082345
+212.95.252.16 1 1 3090 20041021202221
+196.40.43.219 0 1 6867 
+66.218.70.88 0 1 16531 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 13
+20041002 1 1 3090 1
+20041003 39 39 8632523 1
+20041011 24 40 1498784 1
+20041012 2 2 33700 1
+20041013 1 1 3090 1
+20041016 51 53 177258 2
+20041017 1 1 3090 1
+20041021 2 3 80599 2
+20041022 2 2 50084 1
+20041023 0 1 6867 0
+20041025 0 1 16531 0
+20041029 1 1 3090 1
+20041031 44 44 166710 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+5mn-15mn 2
+2mn-5mn 1
+0s-30s 9
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 63
+/ 15 37080 9 5
+/Page%20Files/Basilisk/basilisk.html 7 18110 1 1
+/Page%20Files/Basilisk/graphic3.html 5 18150 0 1
+/Page%20Files/Fairtrade/icons.html 5 19125 0 0
+/Page%20Files/Guy%20Ritchie/logo.html 5 13832 0 0
+/Page%20Files/Basilisk/graphic2.html 4 14520 0 0
+/Page%20Files/Dino/dino.html 4 10252 1 1
+/Page%20Files/Basilisk/graphic1.html 4 14520 0 0
+/Page%20Files/theresa_barbatos_portfolio.html 4 3728 2 0
+/Page%20Files/Basilisk/text.html 4 14500 0 0
+/Page%20Files/Magazine/choruscover.html 3 11313 0 0
+/Page%20Files/Fairtrade/s4.html 2 7642 0 0
+/Page%20Files/FineArt/eggs.html 3 9447 0 0
+/Page%20Files/Calendar/harvest.html 3 9585 0 0
+/Page%20Files/sketches/sketch4.html 1 2765 0 0
+/Page%20Files/Calendar/growth.html 3 9585 0 0
+/Page%20Files/Calendar/plant.html 3 9579 0 0
+/Page%20Files/Dino/inuse.html 2 5188 0 0
+/Page%20Files/CDs/eulback.html 2 6572 0 0
+/Page%20Files/Typephoto/TypePhoto_1.html 1 3024 0 0
+/Page%20Files/FineArt/glasses.html 3 9492 0 0
+/Page%20Files/Fairtrade/s5.html 1 3821 0 0
+/Page%20Files/Guy%20Ritchie/poster2.html 3 8895 0 0
+/Page%20Files/Fairtrade/s2.html 1 3821 0 0
+/Page%20Files/Fairtrade/s1.html 2 7642 0 0
+/Page%20Files/apartment/apartment1.html 2 5456 0 0
+/Page%20Files/CDs/eulcover.html 2 6424 0 0
+/Page%20Files/Magazine/treatspread.html 1 3791 0 0
+/Page%20Files/FineArt/bayfield.html 3 9717 0 0
+/Page%20Files/FineArt/skull.html 3 9420 0 0
+/Page%20Files/cats/cats_1.html 1 2898 0 0
+/Page%20Files/Dino/vert.html 2 7546 0 0
+/Page%20Files/people/people1.html 1 2882 0 0
+/Page%20Files/contact/contact.html 3 8421 0 0
+/Page%20Files/Calendar/fullimage.html 3 10911 0 0
+/Page%20Files/FineArt/mastercopy.html 3 9441 0 1
+/Page%20Files/sketches/sketch1.html 4 10668 0 0
+/Page%20Files/city/city1.html 1 2933 0 0
+/Page%20Files/sketches/sketch2.html 2 5536 0 0
+/Page%20Files/up_close/upclose1.html 1 3012 0 0
+/Page%20Files/Dino/horizdie.html 2 5940 0 0
+/Page%20Files/Magazine/treatcover.html 1 3714 0 0
+/Page%20Files/Dino/horiz.html 2 7548 0 0
+/Page%20Files/DigitalFrontpage.html 3 8526 0 0
+/Page%20Files/nature/nature1.html 1 2877 0 0
+/Page%20Files/Magazine/gridcover.html 1 3698 0 0
+/Images/theresabarbatoportfolio04.pdf 2 81920 0 2
+/Page%20Files/Calendar/uses.html 3 9585 0 0
+/Page%20Files/snapshot/snapshot1.html 2 5430 0 0
+/Page%20Files/CDs/CDs.html 3 11406 0 0
+/Page%20Files/me.html 3 9345 0 0
+/Page%20Files/Photos/parking%20lot.html 3 10854 0 0
+/Page%20Files/Guy%20Ritchie/poster1.html 3 8910 0 0
+/Page%20Files/FineArt/face.html 2 6342 0 0
+/Page%20Files/CDs/eullyrics.html 2 6442 0 0
+/Page%20Files/CDs/snuffcover.html 2 6446 0 0
+/Images/calendar/hires_Calendar_HSFIN.pdf 2 8544496 0 1
+/Page%20Files/sketches/sketch3.html 1 2760 0 0
+/Page%20Files/Magazine/chorusspread.html 1 3846 0 0
+/Page%20Files/FineArt/hand.html 3 9492 0 0
+/Page%20Files/CDs/snuffback.html 2 6590 0 1
+/Page%20Files/Magazine/gridspread.html 1 3781 0 0
+/Page%20Files/Fairtrade/s3.html 1 3821 0 0
+END_SIDER

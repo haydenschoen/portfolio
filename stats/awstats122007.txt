@@ -1,0 +1,384 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-12 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2521                
+POS_VISITOR 8260                
+POS_DAY 9024                
+POS_DOMAIN 3229                
+POS_LOGIN 3460                
+POS_ROBOT 3615                
+POS_WORMS 3954                
+POS_EMAILSENDER 4085                
+POS_EMAILRECEIVER 4228                
+POS_SESSION 9386                
+POS_SIDER 9553                
+POS_FILETYPES 4363                
+POS_OS 4487                
+POS_BROWSER 4596                
+POS_SCREENSIZE 4762                
+POS_UNKNOWNREFERER 4836                
+POS_UNKNOWNREFERERBROWSER 5164                
+POS_ORIGIN 5460                
+POS_SEREFERRALS 5597                
+POS_PAGEREFS 5752                
+POS_SEARCHWORDS 6082                
+POS_KEYWORDS 6250                
+POS_MISC 2185                
+POS_ERRORS 6327                
+POS_CLUSTER 3316                
+POS_SIDER_404 6428                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080101002802 1 0 48697616474
+FirstTime 0
+LastTime 20071231191912
+LastUpdate 20080102032555 1 0 0 0 0
+TotalVisits 20                  
+TotalUnique 17                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 74 6731546 22 23 42977
+1 1 313 22740295 11 13 16511
+2 41 203 3533646 32 33 5327086
+3 1 1 3098 12 15 25000
+4 0 0 0 22 23 62181
+5 0 0 0 64 64 8705461
+6 1 1 3098 28 28 59332
+7 0 0 0 24 29 43930
+8 1 1 3098 18 20 33554
+9 0 0 0 31 32 128126
+10 1 1 3098 30 30 75812
+11 2 2 3098 25 26 61009
+12 0 0 0 155 163 461237
+13 0 0 0 140 141 381891
+14 0 0 0 14 16 30757
+15 12 28 905222 17 17 40516
+16 10 10 33337 19 19 21697
+17 0 0 0 18 20 159525
+18 5 5 14803 14 15 55141
+19 2 3 158380 16 17 44097
+20 4 4 12392 24 26 24436
+21 0 0 0 17 17 29443
+22 50 50 168379 6 11 8234
+23 1 1 3098 25 32 153542
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 132 697 34316588
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+linkwalker 248 738730 20071216133036 0
+slurp 158 5650909 20071231052205 0
+googlebot 143 9315715 20071230124704 0
+jeeves 41 127505 20071230020329 0
+crawl 27 0 20071231144431 0
+robot 15 41070 20071230101414 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 131 430546 0 0
+jpg 422 33358551 0 0
+Unknown 1 0 0 0
+gif 143 527491 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 7
+macosx 202
+winxp 54
+win2003 1
+winnt 2
+win2000 31
+Unknown 395
+linux 12
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 50
+firefox2.0.0.11 28
+firefox1.0.7 10
+firefox1.0 5
+netscape5.0 1
+msie7.0 5
+msie5.5 2
+Unknown 394
+safari 202
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+- 20071225112907
+Mozilla/5.0 20071223225307
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071229235919
+arqcrd__ymuoxttudqtrIoyta_cmIxhimys 20071224181846
+AutoQA_[EIG]_v0.1.0 20071225202744
+ImageWalker/2.0_(www.bdbrandprotect.com) 20071217011807
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+- 20071225112907
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071229235919
+arqcrd__ymuoxttudqtrIoyta_cmIxhimys 20071224181846
+AutoQA_[EIG]_v0.1.0 20071225202744
+ImageWalker/2.0_(www.bdbrandprotect.com) 20071217011807
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 25 411
+From1 0 0
+From2 1 1
+From3 6 6
+From4 100 279
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://www.pingdom.com/tools/fpt/ 3 3
+http://www.dhs.mps.k12.mi.us/alumni/profile.php 1 1
+http://mywbs.com 1 1
+http://barbato-blog.blogspot.com/2005/11/theresas-site-tester.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+hayden+schoen 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+hayden 1
+schoen 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 7 21686
+404 191 95880
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 19
+/page%20files/fairtrade/icons.html 1 http://www.haydenschoen.com/page%20files/fairtrade/icons.html
+/robots.txt 170 -
+/page%20files/photos/parking%20lot.html 1 http://www.haydenschoen.com/page%20files/photos/parking%20lot.html
+/page%20files/contact/contact.html 1 http://www.haydenschoen.com/page%20files/contact/contact.html
+/page%20files/sketches/sketch1.html 1 http://www.haydenschoen.com/page%20files/sketches/sketch1.html
+/Theresa's_website/homepage.html 1 -
+/page%20files/magazine/choruscover.html 1 http://www.haydenschoen.com/page%20files/magazine/choruscover.html
+/page%20files/me.html 1 http://www.haydenschoen.com/page%20files/me.html
+/Theresa%27s_website/homepage.html 2 http://www.haydenschoen.com/Page%20Files/me.html
+/page%20files/fineart/bayfield.html 1 http://www.haydenschoen.com/page%20files/fineart/bayfield.html
+/page%20files/basilisk/basilisk.html 1 http://www.haydenschoen.com/page%20files/basilisk/basilisk.html
+/page%20files/guy%20ritchie/logo.html 1 http://www.haydenschoen.com/page%20files/guy%20ritchie/logo.html
+/Images/archive.sit 1 -
+/page%20files/cds/cds.html 1 http://www.haydenschoen.com/page%20files/cds/cds.html
+/page%20files/calendar/fullimage.html 1 http://www.haydenschoen.com/page%20files/calendar/fullimage.html
+/page%20files/dino/dino.html 1 http://www.haydenschoen.com/page%20files/dino/dino.html
+/images/basilisk/basilisk.gif 1 -
+/page%20files/digitalfrontpage.html 1 http://www.haydenschoen.com/page%20files/digitalfrontpage.html
+/Theresa%27s_website/images/bio-page_17.gif 3 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+38.105.83.11 49 49 165281 20071207224449
+67.42.88.40 40 202 3530548 20071212020547
+66.100.226.152 12 28 905222 20071215152619
+69.36.158.40 10 10 33337 20071210164251
+64.114.199.1 3 3 8607 20071213183415
+209.62.82.12 3 3 9294 20071229235919
+194.153.113.23 2 2 6196 20071229201811
+74.52.245.146 2 2 6196 20071224181130
+67.202.29.78 2 2 3098 20071225112907
+207.190.67.77 2 3 158380 20071231191912
+67.202.22.194 1 1 3098 20071220060915
+64.182.124.212 1 1 3098 20071223225307
+205.178.184.153 1 1 3098 20071223013018
+67.202.31.93 1 1 3098 20071212203517
+207.148.249.13 1 1 3098 20071225202744
+72.14.164.93 0 386 29468743 
+74.208.15.163 1 1 3098 20071217083021
+68.143.63.18 1 1 3098 20071224181846
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20071203 1 1 3098 1
+20071205 1 1 3098 1
+20071207 49 49 165281 1
+20071210 10 10 33337 1
+20071212 41 203 3533646 2
+20071213 3 3 8607 1
+20071215 12 28 905222 1
+20071217 2 388 29474939 2
+20071220 1 1 3098 1
+20071223 2 2 6196 2
+20071224 2 2 6196 2
+20071225 3 3 6196 2
+20071229 3 3 9294 2
+20071231 2 3 158380 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 2
+0s-30s 17
+30s-2mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 71
+/ 23 71254 18 14
+/Page%20Files/Dino/dino.html 3 7689 0 0
+/Page%20Files/Magazine/choruscover.html 3 11313 0 0
+/Page%20Files/Basilisk/basilisk.html 3 10866 0 0
+/Page%20Files/Magazine/treatspread.html 3 11373 0 0
+/Page%20Files/Magazine/treatcover.html 3 11142 0 0
+/Page%20Files/FineArt/bayfield.html 3 9717 0 0
+/Page%20Files/Photos/parking%20lot.html 3 10854 0 1
+/Page%20Files/Guy%20Ritchie/logo.html 3 10374 0 0
+/Page%20Files/Calendar/fullimage.html 3 10911 0 0
+/Page%20Files/Calendar/growth.html 2 6390 0 0
+/Page%20Files/Calendar/plant.html 1 3193 0 0
+/Page%20Files/people/people4.html 1 2929 0 1
+/Page%20Files/CDs/eulback.html 1 3286 0 0
+/Page%20Files/Typephoto/TypePhoto_1.html 1 3024 0 0
+/Page%20Files/Basilisk/graphic3.html 1 3630 0 0
+/Page%20Files/people/people2.html 1 2929 0 0
+/Page%20Files/CDs/eulcover.html 1 3212 0 0
+/Theresa%27s_website/Website_html/illustrationspage.html 1 3364 0 0
+/Theresa%27s_website/Website_html/craftypage.html 1 5229 0 0
+/Page%20Files/cats/cats_1.html 1 2898 0 0
+/Page%20Files/apartment_montage/apartment_montage.html 1 8614 0 0
+/Page%20Files/contact/contact.html 2 5614 0 0
+/Page%20Files/sketches/sketch8.html 1 2770 0 0
+/Page%20Files/Dino/horizdie.html 1 2970 0 0
+/Page%20Files/sketches/sketch7.html 1 2763 0 0
+/Page%20Files/Dino/horiz.html 1 3774 0 0
+/Theresa%27s_website/Website_html/blogpage.html 1 2789 0 0
+/Page%20Files/nature/nature1.html 1 2877 0 0
+/Page%20Files/Calendar/uses.html 1 3195 0 0
+/Page%20Files/CDs/CDs.html 2 7604 0 0
+/Page%20Files/apartment_schmee.html 1 1791 0 0
+/Page%20Files/CDs/eullyrics.html 1 3221 0 0
+/Page%20Files/sketches/sketch3.html 1 2760 0 0
+/Page%20Files/Magazine/chorusspread.html 2 7692 0 0
+/Page%20Files/Magazine/gridspread.html 2 7562 0 0
+/Page%20Files/sketches/sketch6.html 1 2761 0 0
+/Theresa%27s_website/Website_html/wspage2.html 1 1529 0 0
+/Theresa%27s_website/Website_html/idportpage.html 1 4065 0 0
+/Page%20Files/FineArt/eggs.html 2 6298 0 0
+/Page%20Files/Calendar/harvest.html 2 6390 0 1
+/Page%20Files/sketches/sketch4.html 1 2765 0 0
+/Page%20Files/Basilisk/graphic1.html 1 3630 0 0
+/Page%20Files/Dino/inuse.html 1 2594 0 0
+/Page%20Files/sketches/sketch5.html 1 2765 0 0
+/Page%20Files/FineArt/glasses.html 2 6328 0 1
+/Page%20Files/Basilisk/graphic2.html 1 3630 0 0
+/theresa.html 1 1194 1 0
+/Page%20Files/FineArt/skull.html 2 6280 0 0
+/Page%20Files/Basilisk/text.html 1 3625 0 0
+/Page%20Files/people/people1.html 2 5764 0 0
+/Page%20Files/Dino/vert.html 1 3773 0 0
+/Page%20Files/FineArt/mastercopy.html 2 6294 0 0
+/Page%20Files/sketches/sketch1.html 3 8001 0 0
+/Page%20Files/city/city1.html 1 2933 0 0
+/Page%20Files/sketches/sketch2.html 2 5536 0 0
+/Theresa%27s_website/Website_html/linkspage.html 1 5635 0 0
+/Page%20Files/up_close/upclose1.html 1 3012 0 0
+/Page%20Files/DigitalFrontpage.html 3 8526 0 1
+/Page%20Files/Magazine/gridcover.html 2 7396 0 0
+/Page%20Files/snapshot/snapshot1.html 1 2715 0 0
+/Page%20Files/people/people3.html 1 2929 0 0
+/Page%20Files/me.html 2 6986 0 0
+/Page%20Files/FineArt/face.html 1 3171 0 0
+/Theresa%27s_website/Website_html/bio-page.html 1 3216 0 0
+/Page%20Files/CDs/snuffcover.html 1 3223 0 0
+/Page%20Files/conceptual.html 1 5507 0 0
+/Theresa%27s_website/Website_html/picspage.html 1 3229 0 0
+/Page%20Files/FineArt/hand.html 2 6328 0 0
+/Page%20Files/Fairtrade/icons.html 2 7650 0 1
+/Page%20Files/CDs/snuffback.html 1 3295 0 0
+END_SIDER

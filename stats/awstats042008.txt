@@ -1,0 +1,566 @@
+AWSTATS DATA FILE 6.5 (build 1.857)
+# If you remove this file, all statistics for date 200804 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2548                
+POS_VISITOR 3498                
+POS_DAY 5980                
+POS_DOMAIN 6651                
+POS_LOGIN 6883                
+POS_ROBOT 7038                
+POS_WORMS 7402                
+POS_EMAILSENDER 7533                
+POS_EMAILRECEIVER 7676                
+POS_SESSION 7752                
+POS_SIDER 7920                
+POS_FILETYPES 18186               
+POS_OS 18295               
+POS_BROWSER 18426               
+POS_SCREENSIZE 18692               
+POS_UNKNOWNREFERER 18766               
+POS_UNKNOWNREFERERBROWSER 18899               
+POS_ORIGIN 19027               
+POS_SEREFERRALS 19169               
+POS_PAGEREFS 19343               
+POS_SEARCHWORDS 19555               
+POS_KEYWORDS 19722               
+POS_MISC 2212                
+POS_ERRORS 19796               
+POS_CLUSTER 6739                
+POS_SIDER_404 19910               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20080501002349 5505 1126716 44014466380
+FirstTime 20080401165555
+LastTime 20080430134436
+LastUpdate 20080519124903 5505 0 5504 0 0
+TotalVisits 61                  
+TotalUnique 58                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 60                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 9 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 28 28 80423 26 26 43286
+1 33 33 94734 30 30 44839
+2 23 23 66354 17 17 31654
+3 7 14 1239006 15 15 25757
+4 18 26 423509 7 8 75543
+5 19 19 54281 11 12 29780
+6 1 1 3098 35 35 48578
+7 8 8 24510 25 25 8553644
+8 2 4 251866 16 16 35508
+9 0 0 0 18 19 160053
+10 56 56 191944 19 20 223350
+11 7 14 983523 16 17 45111
+12 105 117 1688952 26 26 44729
+13 222 269 4277136 25 26 1741143
+14 32 34 409483 12 13 81104
+15 26 27 197925 19 20 48861
+16 127 315 6762686 25 28 48447
+17 80 87 369213 21 22 68794
+18 27 59 2919565 34 35 116820
+19 9 19 719950 12 13 71851
+20 1 1 3098 9 9 15042
+21 46 47 259830 13 13 24011
+22 0 1 122762 14 14 22763
+23 116 139 2214819 15 15 29060
+END_TIME
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 60
+190.48.122.206 164 164 522167 20080424133038
+190.54.49.157 72 72 211524 20080421230200
+213.189.25.182 55 55 188846 20080418103243
+217.160.76.187 51 51 151404 20080402165949
+85.17.60.183 51 51 151167 20080422120710
+83.99.159.121 49 49 145970 20080421170023
+38.105.83.10 49 49 169961 20080406230541
+217.152.72.67 46 46 136995 20080402172804
+87.230.11.6 45 45 134199 20080421123010
+203.121.182.153 45 45 133897 20080421214130
+71.103.24.85 1 3 248695 20080418163102
+64.218.178.62 1 3 105770 20080402123025
+212.69.176.122 25 25 71992 20080402153443
+64.92.170.171 28 28 80665 20080422141211
+64.122.13.196 1 1 3098 20080421002310
+72.86.78.122 2 7 12887 20080402171027
+62.131.249.151 1 2 125933 20080423151931
+213.198.208.49 5 10 797255 20080423124211
+129.137.99.179 33 75 3435668 20080404135755
+205.134.252.23 33 33 94734 20080403010550
+67.183.66.165 3 5 91096 20080410235356
+203.218.188.184 1 2 125933 20080423122836
+74.52.245.146 2 2 6196 20080424112355
+82.161.231.16 1 1 3098 20080419191122
+66.82.9.107 0 1 122762 
+216.79.136.29 2 6 125933 20080430134436
+85.90.170.244 1 2 125933 20080420121614
+67.202.38.127 1 1 3098 20080410064757
+131.204.55.149 1 1 3098 20080402143632
+24.58.185.92 1 3 248695 20080416192822
+78.166.63.132 1 2 125933 20080416124825
+24.18.239.192 2 3 80607 20080402235930
+213.198.235.11 1 2 125933 20080419210601
+85.165.214.214 1 2 125933 20080424113600
+65.199.34.69 1 1 3098 20080425071908
+79.176.105.160 1 2 125933 20080429135817
+69.133.155.175 0 2 122762 
+213.22.212.168 7 14 1239006 20080424031007
+195.28.164.44 19 19 54281 20080422050240
+96.227.105.230 1 3 125933 20080429172356
+91.127.13.179 1 2 125933 20080422112315
+69.36.158.34 10 10 33337 20080405042200
+208.109.106.141 1 1 3098 20080415021102
+68.32.89.22 22 45 2444062 20080402183929
+24.215.119.21 1 2 125933 20080419085736
+71.217.113.182 15 31 858329 20080414193345
+62.72.101.114 22 22 63256 20080423020716
+77.79.25.28 7 14 1239006 20080420165821
+38.104.58.118 7 7 21412 20080416071846
+64.246.165.235 1 1 3098 20080411105453
+76.16.86.122 1 2 125933 20080411080709
+75.92.174.47 17 37 1738956 20080410235057
+64.122.126.33 5 14 475503 20080402180810
+71.212.49.22 7 143 795858 20080420161040
+82.135.221.170 3 7 602626 20080419112618
+66.195.33.194 42 83 4026456 20080401165702
+89.45.90.198 1 3 248695 20080424160647
+79.113.89.244 1 2 125933 20080424113832
+190.48.126.42 22 22 67435 20080424133554
+196.205.169.89 3 5 325720 20080413143124
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 23
+20080401 43 84 4029554 2
+20080402 155 195 3482318 9
+20080403 60 60 172059 2
+20080404 33 75 3435668 1
+20080405 10 10 33337 1
+20080406 49 49 169961 1
+20080408 8 16 390172 1
+20080410 21 43 1833150 3
+20080411 2 4 251793 2
+20080413 3 5 325720 1
+20080414 7 15 468157 1
+20080415 1 1 3098 1
+20080416 9 12 396040 3
+20080418 56 58 437541 2
+20080419 6 14 980352 4
+20080420 15 159 2160797 3
+20080421 185 185 551363 5
+20080422 99 100 412046 4
+20080423 29 36 1112377 4
+20080424 197 208 2332267 7
+20080425 1 1 3098 1
+20080429 2 5 251866 2
+20080430 2 6 125933 1
+END_DAY
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 993 1341 23358667
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+googlebot 82 10996534 20080430223214 0
+slurp 81 124874 20080430232038 0
+jeeves 79 240609 20080429075258 0
+robot 26 53416 20080429121019 0
+ia_archiver 8 25272 20080424061231 0
+ilse 1 3098 20080405161608 0
+msnbot 1 0 20080414010245 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Session range - Number of visits
+BEGIN_SESSION 3
+2mn-5mn 2
+30s-2mn 16
+0s-30s 43
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 213
+/ 53 164194 29 10
+/Page%20Files/FineArt/face.html 28 85617 21 16
+/Page%20Files/DigitalFrontpage.html 19 53998 3 0
+/Page%20Files/sketches/sketch1.html 17 45339 4 0
+/Page%20Files/sketches/sketch2.html 16 44288 0 0
+/Page%20Files/sketches/sketch8.html 14 38780 0 0
+/Page%20Files/sketches/sketch3.html 14 38640 0 0
+/Page%20Files/sketches/sketch7.html 14 38682 0 0
+/Page%20Files/sketches/sketch9.html 14 38038 0 2
+/Page%20Files/sketches/sketch5.html 14 38710 0 0
+/Page%20Files/Dino/dino.html 9 23067 0 1
+/Page%20Files/up_close/upclose32.html 2 5940 0 0
+/Page%20Files/Fairtrade/s4.html 1 3821 0 0
+/Page%20Files/Typephoto/typephoto26.html 6 18384 0 1
+/Page%20Files/workroom/WORKROOM.html 2 9922 0 0
+/Page%20Files/snapshot/snapshot34.html 1 2761 0 0
+/Page%20Files/Calendar/growth.html 2 6390 0 0
+/Page%20Files/Calendar/plant.html 2 6386 0 0
+/Page%20Files/city/city2.html 5 14875 0 0
+/Page%20Files/snapshot/snapshot27.html 1 2763 0 0
+/Page%20Files/people/people9.html 3 8799 0 0
+/Page%20Files/snapshot/snapshot4.html 2 5522 0 0
+/Page%20Files/up_close/upclose19.html 3 9195 0 0
+/Page%20Files/Fairtrade/s1.html 3 11463 0 0
+/Page%20Files/snapshot/snapshot22.html 1 2763 0 0
+/Page%20Files/KITCHEN/KITCHEN.html 2 10466 0 0
+/Page%20Files/Basilisk/graphic3.html 4 14520 0 0
+/Page%20Files/city/city4.html 5 14875 0 0
+/Page%20Files/CDs/eulcover.html 3 9636 0 0
+/Page%20Files/Basilisk/basilisk.html 8 28976 0 1
+/Page%20Files/Typephoto/typePhoto_6.html 6 18366 1 0
+/Page%20Files/Typephoto/typephoto20.html 6 18774 0 0
+/Page%20Files/cats/cats_1.html 7 20286 0 0
+/Page%20Files/snapshot/snapshot7.html 2 5522 0 0
+/Page%20Files/up_close/upclose31.html 2 5940 0 1
+/Page%20Files/up_close/upclose20.html 3 9201 0 0
+/Page%20Files/Magazine/treatcover.html 3 11142 0 0
+/Page%20Files/nature/nature1.html 5 14385 0 0
+/Page%20Files/snapshot/snapshot38.html 1 2759 0 0
+/Page%20Files/Calendar/uses.html 2 6390 0 0
+/Page%20Files/CDs/CDs.html 5 19010 0 0
+/Page%20Files/up_close/upclose7.html 3 9189 0 0
+/Page%20Files/up_close/upclose15.html 3 9201 0 0
+/Page%20Files/snapshot/snapshot2.html 2 5544 0 0
+/Page%20Files/apartment_schmee.html 3 5373 0 0
+/Page%20Files/CDs/eullyrics.html 3 9663 0 0
+/Page%20Files/Typephoto/typePhoto_4.html 6 18390 0 0
+/Page%20Files/snapshot/snapshot15.html 1 2763 0 0
+/Page%20Files/Typephoto/typePhoto_15.html 6 18402 0 0
+/Page%20Files/Magazine/chorusspread.html 4 15384 0 1
+/Page%20Files/Typephoto/typePhoto_5.html 6 18360 0 0
+/Page%20Files/people/people7.html 4 11700 0 0
+/Page%20Files/Typephoto/typePhoto_7.html 6 18390 0 0
+/Page%20Files/Magazine/gridspread.html 4 15124 0 0
+/Page%20Files/snapshot/snapshot10.html 2 5524 0 0
+/Page%20Files/nature/nature3.html 5 14890 0 0
+/Page%20Files/BABU/BABU.html 2 7622 0 1
+/Page%20Files/Photos/w1.html 3 10932 0 0
+/Page%20Files/Typephoto/typePhoto_3.html 6 18390 0 0
+/Page%20Files/Basilisk/graphic1.html 5 18150 0 0
+/Page%20Files/snapshot/snapshot13.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot8.html 2 5522 0 0
+/Page%20Files/Photos/w5.html 2 7286 0 1
+/Page%20Files/Photos/w8.html 3 10929 0 1
+/Page%20Files/snapshot/snapshot40.html 1 2654 0 1
+/Page%20Files/Typephoto/typephoto23.html 6 18384 0 0
+/Page%20Files/up_close/upclose29.html 3 8910 0 0
+/Page%20Files/Fairtrade/s5.html 2 7642 0 0
+/Page%20Files/FineArt/glasses.html 9 28476 0 1
+/Page%20Files/Photos/w6.html 4 14572 0 0
+/Page%20Files/snapshot/snapshot35.html 1 2759 0 0
+/Page%20Files/snapshot/snapshot33.html 1 2761 0 0
+/Page%20Files/Typephoto/typePhoto_9.html 6 18390 0 0
+/Page%20Files/Typephoto/typephoto21.html 6 18384 0 0
+/Page%20Files/snapshot/snapshot16.html 1 2763 0 0
+/Page%20Files/people/people8.html 4 11700 0 1
+/Page%20Files/city/city10.html 5 14210 0 2
+/Page%20Files/FineArt/bayfield.html 12 38868 0 2
+/Page%20Files/FineArt/skull.html 10 31400 0 1
+/Page%20Files/Dino/vert.html 4 15092 0 0
+/Page%20Files/snapshot/snapshot26.html 1 2763 0 0
+/Page%20Files/BEDROOM/BEDROOM.html 2 4644 0 0
+/Page%20Files/city/city1.html 5 14665 0 0
+/Page%20Files/Photos/w2.html 2 7286 0 0
+/Page%20Files/Typephoto/typePhoto_13.html 6 18408 0 0
+/Page%20Files/city/city5.html 5 14855 0 0
+/Page%20Files/Typephoto/typephoto22.html 6 18384 0 0
+/Page%20Files/snapshot/snapshot21.html 1 2763 0 0
+/Page%20Files/up_close/upclose9.html 3 9192 0 0
+/Page%20Files/Magazine/gridcover.html 3 11094 0 0
+/Page%20Files/snapshot/snapshot17.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot6.html 2 5522 0 0
+/Page%20Files/me.html 7 24451 0 0
+/Page%20Files/snapshot/snapshot31.html 1 2763 0 0
+/Page%20Files/CDs/snuffcover.html 3 9669 0 0
+/Page%20Files/Typephoto/typePhoto_19.html 6 18426 0 0
+/Page%20Files/up_close/upclose13.html 3 9195 0 0
+/Page%20Files/up_close/upclose33.html 2 5940 0 0
+/Page%20Files/people/people11.html 3 8649 0 0
+/Page%20Files/FineArt/hand.html 7 22148 0 1
+/Page%20Files/snapshot/snapshot23.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot14.html 1 2763 0 0
+/Page%20Files/CDs/snuffback.html 3 9885 0 0
+/Page%20Files/snapshot/snapshot20.html 1 2763 0 0
+/Page%20Files/up_close/upclose25.html 3 8910 0 0
+/Page%20Files/up_close/upclose6.html 3 9189 0 0
+/Page%20Files/up_close/upclose2.html 3 9189 0 0
+/Page%20Files/city/city6.html 5 14875 0 0
+/Page%20Files/Magazine/choruscover.html 7 26397 0 0
+/Page%20Files/up_close/upclose5.html 3 9177 0 0
+/Page%20Files/Photos/w4.html 4 14572 0 0
+/Page%20Files/cats/cats_2.html 7 20594 0 0
+/Page%20Files/Typephoto/typePhoto_11.html 6 18372 0 0
+/Page%20Files/snapshot/snapshot24.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot11.html 2 5526 0 0
+/Page%20Files/snapshot/snapshot18.html 1 2763 0 0
+/Page%20Files/CDs/eulback.html 3 9858 0 0
+/Page%20Files/people/people4.html 4 11716 0 0
+/Page%20Files/up_close/upclose3.html 3 9189 0 0
+/Page%20Files/Typephoto/TypePhoto_1.html 6 18144 0 0
+/Page%20Files/Guy%20Ritchie/poster2.html 4 11860 0 0
+/Page%20Files/Fairtrade/s2.html 3 11463 0 0
+/Page%20Files/Typephoto/typePhoto_17.html 6 18378 0 0
+/Page%20Files/Typephoto/typePhoto_10.html 6 18372 0 0
+/Page%20Files/people/people13.html 3 8649 0 0
+/Page%20Files/people/people2.html 5 14645 0 0
+/Page%20Files/snapshot/snapshot19.html 1 2763 0 0
+/Page%20Files/Magazine/treatspread.html 6 22746 0 2
+/Page%20Files/people/people15.html 3 8505 0 1
+/Page%20Files/Typephoto/typePhoto_2.html 6 18390 0 0
+/Page%20Files/apartment_montage/apartment_montage.html 4 34456 0 0
+/Page%20Files/up_close/upclose12.html 3 9183 0 0
+/Page%20Files/Calendar/fullimage.html 4 14548 0 0
+/Page%20Files/contact/contact.html 6 16842 1 1
+/Page%20Files/snapshot/snapshot37.html 1 2759 0 0
+/Page%20Files/snapshot/snapshot12.html 2 5526 0 1
+/Page%20Files/Dino/horizdie.html 3 8910 0 0
+/Page%20Files/up_close/upclose10.html 3 9180 0 0
+/Page%20Files/Dino/horiz.html 4 15096 0 0
+/Page%20Files/up_close/upclose22.html 3 8910 0 0
+/Page%20Files/people/people12.html 3 8649 0 0
+/Page%20Files/up_close/upclose21.html 3 9216 0 0
+/Page%20Files/Photos/parking%20lot.html 7 25326 0 1
+/Page%20Files/snapshot/snapshot28.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot5.html 2 5522 0 0
+/Page%20Files/Guy%20Ritchie/poster1.html 4 11880 0 0
+/Page%20Files/Guy%20Ritchie/logo.html 6 20748 0 0
+/Page%20Files/people/people10.html 3 8646 0 0
+/Page%20Files/cats/cats_7.html 7 20293 0 0
+/Page%20Files/Typephoto/typePhoto_16.html 6 18378 0 0
+/Page%20Files/up_close/upclose26.html 3 8910 0 0
+/Page%20Files/snapshot/snapshot25.html 1 2763 0 0
+/Page%20Files/Photos/faces.html 3 10812 0 0
+/Page%20Files/up_close/upclose17.html 3 9183 0 0
+/Page%20Files/snapshot/snapshot30.html 1 2763 0 0
+/Page%20Files/snapshot/snapshot39.html 1 2759 0 0
+/Page%20Files/Typephoto/typephoto25.html 6 18384 0 0
+/Page%20Files/Typephoto/typePhoto_12.html 6 18378 0 0
+/Page%20Files/cats/cats_4.html 7 20594 0 0
+/Page%20Files/people/people5.html 4 11700 0 0
+/Page%20Files/Fairtrade/s3.html 3 11463 0 1
+/Page%20Files/sketches/sketch6.html 14 38654 0 0
+/Page%20Files/Typephoto/typePhoto_8.html 6 18390 0 0
+/Page%20Files/city/city3.html 5 14875 0 0
+/Page%20Files/Calendar/harvest.html 2 6390 0 0
+/Page%20Files/FineArt/eggs.html 8 25192 0 0
+/Page%20Files/up_close/upclose23.html 3 8910 0 0
+/Page%20Files/Typephoto/typephoto27.html 6 18078 0 5
+/Page%20Files/sketches/sketch4.html 14 38710 0 0
+/Page%20Files/up_close/upclose4.html 3 9177 0 0
+/Page%20Files/Typephoto/typePhoto_14.html 6 18402 0 0
+/Page%20Files/snapshot/snapshot29.html 1 2763 0 0
+/Page%20Files/Dino/inuse.html 4 10376 0 0
+/Page%20Files/up_close/upclose28.html 3 8910 0 0
+/Page%20Files/Basilisk/graphic2.html 5 18150 0 0
+/Page%20Files/snapshot/snapshot32.html 1 2763 0 0
+/theresa.html 1 1194 1 0
+/Page%20Files/cats/cats_5.html 7 20594 0 0
+/Page%20Files/up_close/upclose14.html 3 9183 0 0
+/Page%20Files/Photos/w7.html 3 10929 0 0
+/Page%20Files/nature/nature5.html 5 14880 0 0
+/Page%20Files/Basilisk/text.html 3 10875 0 0
+/Page%20Files/people/people6.html 4 11700 0 0
+/Page%20Files/Typephoto/typephoto24.html 6 18384 0 0
+/Page%20Files/people/people1.html 6 17292 1 1
+/Page%20Files/FineArt/mastercopy.html 8 25176 0 0
+/Page%20Files/up_close/upclose8.html 3 9189 0 0
+/Page%20Files/up_close/upclose30.html 3 8910 0 1
+/Page%20Files/up_close/upclose27.html 3 8910 0 0
+/Page%20Files/up_close/upclose18.html 3 9183 0 0
+/Page%20Files/snapshot/snapshot9.html 2 5524 0 0
+/Page%20Files/Typephoto/typePhoto_18.html 6 18402 0 0
+/Page%20Files/up_close/upclose34.html 1 2921 0 0
+/Page%20Files/up_close/upclose16.html 3 9195 0 0
+/Page%20Files/up_close/upclose1.html 3 9036 0 0
+/Page%20Files/cats/cats_6.html 7 20594 0 0
+/Page%20Files/Photos/w3.html 3 10929 0 0
+/Page%20Files/up_close/upclose24.html 3 8910 0 0
+/Page%20Files/cats/cats_3.html 7 20594 0 0
+/Page%20Files/snapshot/snapshot1.html 4 10860 0 0
+/Page%20Files/people/people3.html 5 14645 0 0
+/Page%20Files/snapshot/snapshot3.html 2 5522 0 0
+/Page%20Files/city/city7.html 5 14885 0 0
+/Page%20Files/up_close/upclose11.html 3 9195 0 0
+/Page%20Files/conceptual.html 3 16521 0 0
+/Page%20Files/city/city9.html 5 14440 0 0
+/Page%20Files/people/people14.html 3 8649 0 1
+/Page%20Files/nature/nature4.html 5 14875 0 0
+/Page%20Files/nature/nature6.html 5 14645 0 0
+/Page%20Files/Photos/wallsbook.html 5 18255 0 1
+/Page%20Files/Fairtrade/icons.html 5 19125 0 0
+/Page%20Files/city/city8.html 5 14855 0 0
+/Page%20Files/nature/nature2.html 5 14880 0 0
+END_SIDER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 3
+html 993 3071936 0 0
+jpg 246 19992980 0 0
+gif 102 293751 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 9
+winlong 48
+winxp 831
+winnt 1
+linuxfedora 10
+linux 3
+macosx 387
+winme 2
+win2003 50
+Unknown 9
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 16
+msie6.0 214
+msie3.0 1
+opera 11
+firefox1.5.0.1 1
+firefox2.0.0.5 83
+firefox2.0.0.13 54
+firefox1.0.7 17
+firefox1.0 2
+mozilla 2
+msie7.0 628
+firefox2.0.0.4 14
+firefox2.0 2
+Unknown 9
+safari 258
+camino 7
+firefox1.5.0.7 38
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+- 20080425071908
+panscient.com 20080416071846
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+- 20080425071908
+panscient.com 20080416071846
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 700 703
+From1 0 0
+From2 24 36
+From3 10 10
+From4 259 592
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+google_image 22 34
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://www.facebook.com/profile.php 8 8
+http://fillbest.com 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+haydenschoen 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+haydenschoen 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 12 9900
+206 5 69878
+404 179 106147
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 7
+/Images/archive.sit 2 -
+/robots.txt 168 -
+/page%20files/sketches/sketch1.html 1 -
+/Theresa's_website/homepage.html 2 -
+/Theresa%27s_website/homepage.html 2 http://haydenschoen.com/Page%20Files/me.html
+/page%20files/digitalfrontpage.html 1 -
+/Theresa%27s_website/images/bio-page_17.gif 3 http://haydenschoen.com/Page%20Files/me.html
+END_SIDER_404

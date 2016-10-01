@@ -1,0 +1,346 @@
+AWSTATS DATA FILE 6.4 (build 1.814)
+# If you remove this file, all statistics for date 2007-11 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1865                
+POS_TIME 2521                
+POS_VISITOR 6700                
+POS_DAY 7440                
+POS_DOMAIN 3185                
+POS_LOGIN 3416                
+POS_ROBOT 3571                
+POS_WORMS 3898                
+POS_EMAILSENDER 4029                
+POS_EMAILRECEIVER 4172                
+POS_SESSION 7734                
+POS_SIDER 7891                
+POS_FILETYPES 4307                
+POS_OS 4429                
+POS_BROWSER 4526                
+POS_SCREENSIZE 4699                
+POS_UNKNOWNREFERER 4773                
+POS_UNKNOWNREFERERBROWSER 5053                
+POS_ORIGIN 5233                
+POS_SEREFERRALS 5368                
+POS_PAGEREFS 5540                
+POS_SEARCHWORDS 5846                
+POS_KEYWORDS 6014                
+POS_MISC 2185                
+POS_ERRORS 6091                
+POS_CLUSTER 3272                
+POS_SIDER_404 6192                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20071201004540 1 0 48731105869
+FirstTime 0
+LastTime 20071126013636
+LastUpdate 20071202031910 1 0 0 0 0
+TotalVisits 19                  
+TotalUnique 16                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 18                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 9 9 20020
+1 1 1 3098 17 22 33965
+2 10 10 33337 9 9 20760
+3 0 0 0 14 14 24703
+4 3 3 9294 9 9 19952
+5 0 0 0 16 16 28542
+6 32 73 11786416 19 20 32510
+7 1 1 3098 9 15 14093
+8 0 0 0 14 14 26930
+9 0 0 0 17 24 38822
+10 1 1 3098 8 9 11349
+11 1 1 3098 11 11 16840
+12 2 4 47697 14 14 23131
+13 1 1 0 16 22 36411
+14 4 8 131904 6 6 15793
+15 0 1 6867 28 30 63310
+16 51 52 378201 15 16 39019
+17 0 0 0 18 18 55467
+18 1 1 3098 20 20 55748
+19 2 2 6196 18 19 33938
+20 0 0 0 11 11 22424
+21 0 0 0 13 13 29790
+22 0 0 0 11 11 19839
+23 0 0 0 9 11 18675
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 110 159 12415402
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 6
+slurp 95 297947 20071130110006 0
+googlebot 82 230859 20071130231315 0
+crawl 33 4687 20071129132911 0
+jeeves 30 90366 20071130155847 0
+spider 1 3098 20071112130317 0
+robot 1 3012 20071129214518 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 4
+html 109 366865 0 0
+jpg 41 3373651 0 0
+pdf 1 8511728 0 0
+gif 8 163158 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 6
+macosx 72
+winlong 2
+winxp 63
+win2000 1
+Unknown 7
+linux 14
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 9
+msie6.0 54
+firefox1.0.7 10
+firefox1.0 2
+firefox2.0.0.8 3
+mozilla 2
+firefox2.0.0.9 1
+msie7.0 10
+firefox2.0.0.6 72
+Unknown 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+- 20071108043440
+cfetch/1.0 20071125120812
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071120110723
+Mozilla/5.0_(compatible;_MJ12bot/v1.2.1;_http://www.majestic12.co.uk/bot.php?_) 20071106134812
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+- 20071108043440
+cfetch/1.0 20071125120812
+Pingdom_GIGRIB_(http://www.pingdom.com) 20071120110723
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 21 21
+From1 0 0
+From2 4 7
+From3 4 4
+From4 81 127
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 2 2
+google_image 2 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.pingdom.com/tools/fpt/ 2 2
+http://www.dhs.mps.k12.mi.us/alumni/profile.php 1 1
+http://barbato-blog.blogspot.com/2007/10/this-ones-for-joe.html 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+hayden+schoen 2
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+hayden 2
+schoen 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+206 4 12392
+404 117 59670
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 3
+/robots.txt 115 -
+/Theresa%27s_website/homepage.html 1 http://www.haydenschoen.com/Page%20Files/me.html
+/Theresa%27s_website/images/bio-page_17.gif 1 http://www.haydenschoen.com/Page%20Files/me.html
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 18
+38.100.41.102 49 49 172470 20071106165558
+66.213.10.5 32 72 11779025 20071112074637
+69.36.158.35 10 10 33337 20071105022206
+216.100.91.3 4 8 131904 20071106143430
+72.55.179.108 3 3 9294 20071117193323
+74.52.245.146 2 2 6196 20071126013636
+67.172.156.252 1 1 3098 20071125191139
+71.58.103.36 1 2 202633 20071108160856
+38.113.234.181 1 1 0 20071125120812
+209.62.82.12 1 1 3098 20071120110723
+67.142.130.26 0 1 6867 
+74.135.126.189 1 1 0 20071106134812
+209.62.82.14 1 1 3098 20071102043140
+72.44.57.55 1 1 3098 20071112181550
+65.94.223.216 1 1 3098 20071109165642
+212.239.212.249 1 1 3098 20071102101751
+74.227.196.223 1 2 10489 20071108063313
+67.116.182.217 0 2 44599 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 11
+20071102 2 3 13063 2
+20071105 10 10 33337 1
+20071106 55 59 307472 4
+20071108 4 6 219318 3
+20071109 32 72 11779025 2
+20071112 2 2 6196 2
+20071114 0 2 44599 0
+20071117 1 1 3098 1
+20071120 1 1 3098 1
+20071125 2 2 3098 2
+20071126 1 1 3098 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 2
+0s-30s 17
+2mn-5mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 58
+/ 19 52666 16 13
+/Page%20Files/Basilisk/basilisk.html 5 18110 2 1
+/Page%20Files/Dino/dino.html 3 7689 0 0
+/Page%20Files/FineArt/bayfield.html 3 9717 0 0
+/Page%20Files/me.html 3 10479 1 1
+/Page%20Files/Photos/parking%20lot.html 3 10854 0 1
+/Page%20Files/Calendar/fullimage.html 3 10911 0 0
+/Page%20Files/Guy%20Ritchie/logo.html 3 10374 0 0
+/Page%20Files/Magazine/choruscover.html 2 7542 0 0
+/Page%20Files/Calendar/harvest.html 2 6390 0 0
+/Page%20Files/Photos/w1.html 1 3644 0 0
+/Page%20Files/Photos/w4.html 1 3643 0 0
+/Page%20Files/Fairtrade/s4.html 1 3821 0 0
+/Page%20Files/FineArt/eggs.html 1 3149 0 0
+/Page%20Files/Basilisk/graphic1.html 2 7260 0 0
+/Page%20Files/Calendar/growth.html 2 6390 0 0
+/Page%20Files/Photos/w5.html 1 3643 0 0
+/Page%20Files/Calendar/plant.html 2 6386 0 0
+/Page%20Files/Photos/w8.html 1 3643 0 0
+/Page%20Files/Dino/inuse.html 2 5188 0 0
+/Page%20Files/Typephoto/TypePhoto_1.html 1 3024 0 0
+/Page%20Files/Basilisk/graphic2.html 2 7260 0 0
+/Page%20Files/Fairtrade/s5.html 1 3821 0 0
+/Page%20Files/FineArt/glasses.html 1 3164 0 0
+/Page%20Files/Photos/w6.html 1 3643 0 0
+/Page%20Files/Fairtrade/s1.html 1 3821 0 0
+/Page%20Files/Fairtrade/s2.html 1 3821 0 0
+/Page%20Files/Guy%20Ritchie/poster2.html 1 2965 0 0
+/Page%20Files/Basilisk/graphic3.html 2 7260 0 1
+/Page%20Files/Magazine/treatspread.html 1 3791 0 0
+/Page%20Files/Photos/w7.html 2 7286 0 0
+/Page%20Files/Basilisk/text.html 1 3625 0 0
+/Page%20Files/apartment_montage/apartment_montage.html 1 8614 0 0
+/Page%20Files/Dino/vert.html 2 7546 0 0
+/Page%20Files/contact/contact.html 2 5614 0 0
+/Page%20Files/sketches/sketch1.html 1 2667 0 0
+/Page%20Files/sketches/sketch2.html 1 2768 0 0
+/Page%20Files/Photos/w2.html 2 7286 0 0
+/Page%20Files/Dino/horizdie.html 2 5940 0 0
+/Page%20Files/Magazine/treatcover.html 1 3714 0 0
+/Page%20Files/Dino/horiz.html 2 7548 0 0
+/Page%20Files/DigitalFrontpage.html 1 2842 0 0
+/Page%20Files/nature/nature1.html 1 2877 0 1
+/Page%20Files/Photos/w3.html 1 3643 0 0
+/Page%20Files/Magazine/gridcover.html 1 3698 0 0
+/Page%20Files/Calendar/uses.html 2 6390 0 0
+/Page%20Files/CDs/CDs.html 2 7604 0 0
+/Page%20Files/snapshot/snapshot1.html 1 2715 0 0
+/Page%20Files/apartment_schmee.html 1 1791 0 0
+/Page%20Files/Photos/faces.html 2 7208 0 0
+/Images/calendar/hires_Calendar_HSFIN.pdf 1 8511728 0 1
+/Page%20Files/conceptual.html 1 5507 0 0
+/Page%20Files/Magazine/chorusspread.html 1 3846 0 0
+/Page%20Files/Photos/wallsbook.html 1 3651 0 0
+/Page%20Files/FineArt/hand.html 1 3164 0 0
+/Page%20Files/Fairtrade/icons.html 2 7650 0 0
+/Page%20Files/Magazine/gridspread.html 1 3781 0 0
+/Page%20Files/Fairtrade/s3.html 1 3821 0 0
+END_SIDER
